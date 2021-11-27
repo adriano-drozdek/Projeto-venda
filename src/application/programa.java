@@ -11,8 +11,6 @@ public class programa {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		Produto p = new Produto();
-
 		System.out.println("Entre com o produto: ");
 		System.out.print("Nome: ");
 		String nome = sc.nextLine();
@@ -25,7 +23,7 @@ public class programa {
 		System.out.println("Produto atualizado " + produto.getNome());
 		produto.setPreco(1200.00);
 		System.out.println("Produto atualizado " + produto.getPreco());
-		
+
 		System.out.println();
 		System.out.println("Produto: " + produto);
 		System.out.println();
